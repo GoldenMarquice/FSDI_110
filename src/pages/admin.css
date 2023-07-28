@@ -1,0 +1,58 @@
+.admin{
+    padding-top: 2rem;
+}
+
+.admin .parent {
+    display: flex;
+    height: 100%;
+}
+
+.admin .sec-prods{
+    flex: 3;
+    height: 100%;
+    padding: 15px 90px;
+}
+
+.admin .sec-coupons{
+    flex: 2;
+    height: 100%;
+    padding: 15px 90px;
+}
+
+.admin .form{
+    text-align: left;
+    border: 1px solid #adacac;
+    border-radius: 5px;
+    padding: 15px 25px;
+    background-color: white;
+}
+
+.admin h3{
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #a8a37a;
+    text-align: center;
+}
+
+.admin h5 {
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-small;
+    color: #a8a37a;
+    text-align: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+button {
+    grid-column: 1 / span 2;
+}

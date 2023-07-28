@@ -1,0 +1,67 @@
+.home.page {
+    /* Your existing styles for the home page */
+
+    /* Center the slideshow horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home {
+    padding: 5px 1px;
+    background-color: white;
+
+}
+
+.home h1 {
+    text-align: center;
+}
+
+.homeLink {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+.slideshow-container {
+    /* Customize the size of the slideshow */
+    width: 400px;
+    /* Adjust this value to your preferred width */
+    height: 300px;
+    /* Adjust this value to your preferred height */
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.slide {
+    /* Customize the size of each slide */
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slideshow-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homeBtn {
+    margin: 5px;
+    background-color: #a8a37a;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+.homeBtn {
+    background-color: #918c69;
+}

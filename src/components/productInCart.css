@@ -1,0 +1,36 @@
+.prod-cart{
+    border:1px solid #6a6a6a;
+    display: flex;
+    margin: 7px;
+    align-items: center;
+    justify-items: center;
+    border-radius: 8px;
+    padding: 2px;
+    text-indent: 5px;
+    margin: auto;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.prod-cart img{
+    width: 170px;
+    height: 140px;
+}
+
+.prod-cart div{
+    flex: 4;
+    text-align: center;
+}
+
+.prod-cart label{
+    flex: 1;
+    text-align: center;
+}
+
+.prod-cart h4{
+    text-align: center;
+}
+
+.prod-cart label{
+    text-align: center;
+}

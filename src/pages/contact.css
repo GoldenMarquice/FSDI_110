@@ -1,0 +1,37 @@
+.contactContainer {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contactForm {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contactContainer input[type='text'],
+input[type='email'],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contactContainer button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #368fb2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contactContainer button:hover {
+    background-color: #45a049;
+}
